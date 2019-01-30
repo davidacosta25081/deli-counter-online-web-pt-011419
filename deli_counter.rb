@@ -21,7 +21,7 @@ end
 def now_serving(array)
 
   if array.empty?
-  else 
+  else
     puts "Currently serving #{array[0]}."
   array.shift
   end
