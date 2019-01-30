@@ -1,3 +1,5 @@
+katz_deli = []
+
 def line (costumers)
 new_array = []
 if costumers.empty?
@@ -8,4 +10,10 @@ else
     end
 puts "The line is currently: #{new_array.join(" ")}"
   end
+end
+
+def take_a_number(katz_deli,newcostumer)
+  katz_deli << new_costumer
+
+  puts "Welcome, #{new_costumer}. You are number #{katz_deli.index(new_costumer) + 1 } in line."
 end
