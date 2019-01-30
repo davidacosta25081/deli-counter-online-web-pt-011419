@@ -1,5 +1,5 @@
 def line (costumers)
-if costumers.empty
+if costumers.empty?
   puts "The line is currently empty."
 else
   costumers.each_with_index do |costumer,index|
