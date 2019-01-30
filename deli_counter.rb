@@ -1,4 +1,5 @@
 def line (costumers)
+new_array = []
 if costumers.empty?
   puts "The line is currently empty."
 else
